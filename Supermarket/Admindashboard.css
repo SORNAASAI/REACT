@@ -1,0 +1,108 @@
+/* Admindashboard.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* AdminDashboard.css */
+.dashboard {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    min-height: 100vh; /* Ensure the dashboard covers the full viewport height */
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+}
+
+.left-panel {
+    height: calc(100vh - 160px); /* Adjust height to fill viewport minus header and other elements */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px; /* Optional padding for aesthetics */
+    border: 1px solid #ddd; /* Optional border for visual separation */
+    background-color: #fff; /* Optional background color */
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+
+
+
+/* Admindashboard.css */
+.data-button {
+    margin-top: 20px; /* Add some space above the button */
+    padding: 10px 20px; /* Add padding for aesthetics */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .data-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+
+  header {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px;
+    width: 100%; /* Make header full width */
+    padding: 0 20px; /* Optional padding for spacing */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    flex: 1; /* Allow title to take available space */
+    text-align: left; /* Align heading to the left */
+}
+
+header input[type="text"] {
+    padding: 8px; /* Space inside the input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    outline: none; /* Remove outline */
+    width: 200px; /* Set a smaller width for the input */
+    margin-left: 20px; /* Add margin to the left for spacing */
+    margin-right: 20px; /* Remove right margin */
+}
+
+header input[type="text"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional shadow effect */
+}
+
+.summary-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+
+
+.left-panel, .right-panel {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.recent-orders, .new-users, .revenue-chart, .orders-chart {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
